@@ -6,7 +6,9 @@
   <title>Html Generated</title>
   <meta name="description" content="Figma htmlGenerator">
   <meta name="author" content="htmlGenerator">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans KR&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css">
 
@@ -17,24 +19,62 @@
               */
     body {
       background: #E5E5E5;
+      line-height: 1;
+      font-family: "Noto Sans KR", sans-serif;
+      font-size: 13px;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    wrapper{
+      height: 100%;
+    }
+
+    section{
+      padding-top: 40px;
+      width: calc(100%-30px);
+      margin: auto;
+    }
+
+    main{
+      width: 360px;
+      margin: 0px auto;
+      padding: 60px 0px;
+    }
+    form{
+      margin: 30px 0px;
     }
   </style>
 
 </head>
 
 <body>
-  <div class=e16_1251>
-    <div class=e16_1258>
-      <div class=e16_1259>
-        <div class="e16_1260"></div>
-        <div class="e16_1261"></div>
-        <div class=e16_1262>
-          <div class="e16_1263"></div>
-          <div class="e16_1264"></div>
+  <div class=wrapper>
+    <section>
+      <header>
+        <div class=logo>
+          <a href="/">
+            <img src="../resources/img/1_-Ohouse_mark_horizontal_black.png" alt="">
+          </a>
         </div>
-      </div>
-    </div><span class="e16_1265">회원가입</span><input type="text" class="e16_1280" placeholder="이메일"
-      maxlength="18"></input><span class="e16_1281">@</span>
+      </header>
+      <main>
+        <h1>회원가입</h1>
+        <form action="">
+          <table>
+            
+          </table>
+        </form>
+      </main>
+    </section>
+
+
+    <span class="e16_1265">회원가입</span><input type="text" class="e16_1280" placeholder="이메일" maxlength="18"></input><span
+      class="e16_1281">@</span>
     <div class=e16_1282>
       <div class=e16_1283><input type="text" class="e16_1284" placeholder="이메일 도메인" maxlength="18"></input></div>
     </div>
